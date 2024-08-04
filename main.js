@@ -1,7 +1,8 @@
 const { parseJson } = require('./algo/jsonParse');
 const { jsonStringify } = require('./algo/jsonStringify');
 
-
+//Примеры использования функций
+console.log(" ---- json Stringify ---- ")
 
 var obj = {
     name: 'Ivan',
@@ -18,7 +19,7 @@ var nullVar = null;
 var undefinedVar = undefined;
 
 
-console.log(" ---- json Stringify ---- ")
+
 console.log(jsonStringify(obj))
 console.log(JSON.stringify(obj))
 //output for both: {"name":"Ivan","surname":"Ivanov","age":100,"city":"St Petersburg","hobbies":["reading","programming","sports"]}
