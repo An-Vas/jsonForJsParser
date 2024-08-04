@@ -1,2 +1,3 @@
-Реализация функций аналогов к JSON.parse и JSON.stringify
+Реализация функций аналогов к JSON.parse и JSON.stringify.
+
 Примеры использования функций описаны в main.js
